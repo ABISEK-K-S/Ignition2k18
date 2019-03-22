@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="fav.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="ignition.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+    <title>About | Ignition</title>
+    <script>
+    var i = 0;
+    var txt = "  SVCE is a unit of Sri Venkateswara Educational & Health Trust (SVEHT). Dr. A.C. Muthiah, a renowned engineer, industrialist and philanthropist, is the chairman of the governing council of the college. The college supports the learning of highest order through its quality infrastructure and eminent faculties and provide a wide scope for excellent development of personality of the students";
+    
+    var speed = 25;
+
+    function typeWriter()
+     {
+        if (i < txt.length)
+           {
+             document.getElementById("bazz").innerHTML += txt.charAt(i);
+             i++;
+             setTimeout(typeWriter, speed);
+           }
+
+
+     }
+
+  </script>
+  </head>
+
+
+
+
+  <body style="font-family: 'Ubuntu', sans-serif;;background-color: black;color: white" onload="typeWriter()">
+  <center>
+  <br><br>
+  <img src="title.jpg" width="400px" height="130px"><br><br>
+
+<div class="container">
+  <div class="row" >
+      <div class="col-sm" >
+               <a href="index.html"> <button type="button"  style="background-color: black;border: none;"  class="btn btn-primary btn-lg">Home</button>   </a>   
+      </div>
+
+      <div class="col-sm">
+               <a href="" class="active"> <button type="button"  style="background-color: black;border: none;color:gold"  class="btn btn-primary btn-lg">About us</button>   </a>
+      </div>
+    
+
+      <div class="col-sm">
+               <a href="events.html"> <button type="button"  style="background-color: black;border: none;"  class="btn btn-primary btn-lg">Events</button>   </a>
+      </div>
+    
+
+      <div class="col-sm">
+               <a href="contact.html"> <button type="button"  style="background-color: black;border: none;"  class="btn btn-primary btn-lg">Contact</button>   </a>
+      </div>
+  </div>
+</div>
+
+
+
+
+
+<hr>
+<h2 style="color: #ff5722">About SVCE</h2>
+<br>
+<p id="bazz" style="width: 70%;height: 20%;border:dashed grey;border-radius:0px;font-size: 18px;color: white;background-color:black "><br>&nbsp&nbsp</p>
+<br>
+
+
+<h2 style="color: #651fff">Department of Mechanical Engineering</h2>
+<br>
+<p  style="width: 70%;height: 20%;border:dashed grey;border-radius:1px;font-size: 18px;color: white;background-color: black"><br>&nbsp&nbspThe Department of Mechanical Engineering is one of the three major department established right from the beginning of the college. The department has well experienced faculties and well equipped state-of-the-art laboratories that cater to the needs of the students</p>
+
+
+
+<br>
+<h2 style="color: #ff6f00">Society of Mechanical Engineers</h2>
+<br>
+<p  style="width: 70%;height: 20%;border:dashed grey;;border-radius:1px;font-size: 18px;color: white;background-color: black"><br>&nbsp&nbspSociety of Mechanical Engineers (SME) is a membership organisation that enables collaboration, knowledge sharing, career enrichment and skill development across all engineering disciplines. SME conducts IGNITION – a national level technical symposium where students from all over the country participate in various events which helps them to enrich their knowledge with advanced engineering.<br></p><br><br><br>
+</center>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

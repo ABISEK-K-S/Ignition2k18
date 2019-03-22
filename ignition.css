@@ -1,0 +1,13 @@
+svg
+      {
+        width: 40px
+      }
+
+ hr 
+ {
+    background-color: dimgrey;
+    color: red;
+    border: solid 2px red;
+    height: 5px;
+    width: 80%;
+}
